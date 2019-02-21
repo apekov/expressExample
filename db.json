@@ -1,0 +1,83 @@
+{
+  "products": [
+    {
+      "name": "Work1",
+      "price": "320",
+      "imgPath": "upload/Work1.jpg"
+    },
+    {
+      "name": "Work2",
+      "price": "320",
+      "imgPath": "upload/Work2.jpg"
+    },
+    {
+      "name": "Work3",
+      "price": "320",
+      "imgPath": "upload/Work3.jpg"
+    },
+    {
+      "name": "Work4",
+      "price": "320",
+      "imgPath": "upload/Work4.jpg"
+    },
+    {
+      "name": "Work5",
+      "price": "320",
+      "imgPath": "upload/Work5.jpg"
+    },
+    {
+      "name": "Work6",
+      "price": "320",
+      "imgPath": "upload/Work6.jpg"
+    },
+    {
+      "name": "Work7",
+      "price": "430",
+      "imgPath": "upload/Work7.jpg"
+    },
+    {
+      "name": "work7",
+      "price": "320",
+      "imgPath": "upload/Work7.jpg"
+    }
+  ],
+  "skills": [
+    {
+      "type": "age",
+      "name": 12,
+      "text": "Возраст начала занятий на скрипке",
+      "number": "12"
+    },
+    {
+      "type": "concerts",
+      "number": "45",
+      "text": "Концертов отыграл"
+    },
+    {
+      "type": "cities",
+      "number": "12",
+      "text": "Максимальное число городов в туре"
+    },
+    {
+      "type": "years",
+      "number": "6",
+      "text": "Лет на сцене в качестве скрипача"
+    }
+  ],
+  "user": {
+    "mail": "admin@d.com",
+    "password": "admin"
+  },
+  "messages": [
+    {
+      "name": "saddas",
+      "email": "dsadasd@mail.ru",
+      "message": " adsad sad sa"
+    },
+    {
+      "name": "alan",
+      "email": "deadfonki@gmail.com",
+      "message": "еру ышьзду message"
+    }
+  ]
+}
