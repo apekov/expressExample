@@ -1,8 +1,5 @@
 const formidable = require('formidable');
-const low = require('lowdb')
-const FileSync = require('lowdb/adapters/FileSync')
-const adapter = new FileSync('db.json')
-const db = low(adapter)
+const db = require('../models/db');
 
 let user = db.get('user')
     .value();

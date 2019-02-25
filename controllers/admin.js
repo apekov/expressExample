@@ -1,10 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 const formidable = require('formidable');
-const low = require('lowdb')
-const FileSync = require('lowdb/adapters/FileSync')
-const adapter = new FileSync('db.json')
-const db = low(adapter)
+const db = require('../models/db');
 
 module.exports.get = function(req, res) {
     res.render('pages/admin', { title: 'Main' })
@@ -26,7 +23,7 @@ module.exports.postProduct = (req, res) => {
 
         if (valid.err) {
             fs.unlinkSync(files.photo.path)
-            return res.end(`/?msg=${valid.status}`)
+            return res.redirect(`admin/?msg=${valid.status}`)
         }
         const fileName = path.join(upload, files.photo.name)
 
